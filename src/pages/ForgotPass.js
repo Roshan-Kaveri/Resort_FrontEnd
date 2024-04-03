@@ -1,25 +1,21 @@
 import { Link } from "react-router-dom";
-
 import "../App.css";
 import NavBar from "../components/login_page/NavBar";
 import Introduction from "../components/login_page/Introduction";
 import Background from "../components/login_page/Background";
-import Cabservice from "../components/cabservice/cabservice";
-import Cab_img from "../components/cabservice/cab_img";
-import React from "react";
+import PassReset from "../components/forgot-pass/forgot_pass";
 
-const cabservice = () => {
+const PassResetForm = () => {
   return (
     <>
       <Background></Background>
       <NavBar></NavBar>
       <div className="flexbox">
-        <Cab_img></Cab_img>
-        <Cabservice></Cabservice>
+        <Introduction></Introduction>
+        <PassReset></PassReset>
       </div>
     </>
   );
 };
 
-export default cabservice;
-
+export default PassResetForm;

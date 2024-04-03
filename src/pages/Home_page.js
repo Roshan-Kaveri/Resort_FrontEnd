@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import '../components/Home_page.css';
 import bg1 from '../assets/bg1.png';
@@ -56,3 +57,4 @@ function Home_page() {
      </div>  
 }
 export default Home_page;
+
