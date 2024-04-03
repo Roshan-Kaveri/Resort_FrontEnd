@@ -1,6 +1,7 @@
 .FoodImgBg {
   position: relative;
-  margin: 0;
+  margin: 0px;
+
 }
 
 .FoodImgBg > img {
@@ -45,8 +46,10 @@
   background-color: rgba(139, 139, 139, 0.18);
 }
 
+
 .F_text {
   display: flex;
+
   flex-direction: column;
   padding: 40px;
   flex-grow: 1;
@@ -56,13 +59,21 @@
   justify-content: center;
   position: relative;
   font-size: 40px;
-  padding: 0;
+
+  padding: 0px;
+
   margin: 0;
 }
 
 .F_Desc {
+
   flex-grow: 1;
   display: block;
+
+ /* flex-grow: 30px;
+  display: block;
+  top: 100px;*/
+
 }
 
 .F_price {
@@ -77,6 +88,7 @@
   font-weight: 1000;
   padding: 10px;
 }
+
 .fooditem {
   padding: 20px;
   margin-bottom: 25px;
@@ -89,4 +101,5 @@
   background-color: rgba(139, 139, 139, 0.18); /* Change background color on hover */
   border-color: #333; /* Change border color on hover */
 }
+
 
