@@ -76,6 +76,8 @@
   /* Style the banner image */
 .banner {
     width: 100%; /* Adjust width as needed */
-    height: 703px; /* Maintain aspect ratio */
+
+    height: 40%; /* Maintain aspect ratio */
+
     margin-bottom: 20px; /* Add space below the banner */
 }
