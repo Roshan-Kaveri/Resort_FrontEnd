@@ -1,4 +1,5 @@
 
+
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -24,13 +25,15 @@ export default function App() {
     <BrowserRouter>
       <Routes>
 
-        <Route index element={<Home_page />} />
-        <Route path="*" element={<NoPage />} />
+        <Route index element={<LandingPage />} />
+        <Route  path="*" element={<NoPage />} />
+        <Route path="/Home_page" element={<Home_page/>} />
 
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/payments" element={<Payements />} />
         <Route path="/cab" element={<Cabservice />} />
+
 
         <Route path="/RoomBook" element={<RoomBook />} />
         <Route path="/Food" element={<FoodService />} />
@@ -42,6 +45,7 @@ export default function App() {
     </BrowserRouter>
   );
 }
+
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
