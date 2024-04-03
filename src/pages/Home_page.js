@@ -1,10 +1,13 @@
+
 import React, { useState, useEffect } from 'react';
 import '../components/home/Home_page.css';
 import axios from 'axios';
+
 import bg1 from '../assets/bg1.png';
 import Himg from '../assets/Himg.png';
 import Himg2 from '../assets/Him2.png';
 import Himg3 from '../assets/Him3.jpg';
+
 import Himg4 from '../assets/download1.png';
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
@@ -103,3 +106,4 @@ function Home_page() {
 }
 
 export default Home_page;
+

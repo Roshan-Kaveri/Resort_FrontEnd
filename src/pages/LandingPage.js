@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import NavBar from '../components/login_page/NavBar';
@@ -20,12 +21,14 @@ const LandingPage = () => {
       <img src={banner} alt='Banner' className='banner' />
       <center>
         <b style={{ position: 'absolute', top: '30%', left: '50%', transform: 'translate(-50%, -50%)', color: 'white', fontSize: 60 }}>MANIPAL RESORTS</b>
+
       </center>
       <div className='container'>
         <div className='locations-heading'>
           <h1>Locations</h1>
         </div>
         <div className='image-container'>
+
           <div>
             <button onClick={() => handleNavigate(2)}>
               <img src={mumbai} alt='Mumbai' className='image'></img>
@@ -57,3 +60,4 @@ const LandingPage = () => {
 };
 
 export default LandingPage;
+

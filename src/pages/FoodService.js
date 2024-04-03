@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import NavBar from '../components/login_page/NavBar';
 import FoodImgBg from "../components/FoodService/foodimagebg";
@@ -104,6 +105,7 @@ const FoodService = () => {
             <FoodBelowPage />
         </>
     );
+
 };
 
 export default FoodService;

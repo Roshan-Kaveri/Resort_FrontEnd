@@ -1,10 +1,13 @@
+
 import React, { useState, useEffect } from 'react';
 import Axios from "axios";
+
 import '../components/BookRoom/Roombok.css';
 import image from '../assets/image.png';
 import image1 from '../assets/image1.jpg';
 import image3 from '../assets/image3.jpg';
 import NavBar from '../components/login_page/NavBar';
+
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
 function RoomBook() {
@@ -98,3 +101,4 @@ if (resort_id === 2) {
 );
 }
 export default RoomBook;
+
